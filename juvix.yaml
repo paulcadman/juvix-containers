@@ -1,5 +1,9 @@
 name: containers
 version: 0.6.2
 dependencies:
-  - deps/stdlib
-  - deps/test
+  - git:
+      url: https://github.com/anoma/juvix-stdlib.git
+      hash: e94ea21027ffa63929ab67e12e917b23792b8c57
+  - git:
+      url: https://github.com/anoma/juvix-test.git
+      hash: e8b6a585c3c7f453d8a3d90d0aa07cbadf39cab2
